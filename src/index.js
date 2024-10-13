@@ -17,7 +17,7 @@ function drow(){
             const cellNumber = sheet.slice(index + 1, index + count);
 
             const img = cellNumber.padStart(4, "0");
-            const fileName = `img/${img}.png`;
+            const fileName = `https://github.com/kani353/kani353.github.io/blob/main/img/${img}.png`;
             animation.src = fileName;
 
             index += count + 1;
